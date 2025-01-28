@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    margin: 10px;
+    border-radius: 10px;
+    max-width: 620px;
+}
