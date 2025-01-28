@@ -1,0 +1,43 @@
+:root {
+    --white: #ffffff;
+    --vkui--color_overlay_primary: rgba(0, 0, 0, 0.4);
+}
+
+body {
+    margin: 8px 0;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 620px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.block {
+    display: block;
+}
+
+.image {
+    width: 100%;
+    margin: 0 0;
+}
+
+.duration {
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    margin-right: auto;
+    padding: 3px 8px;
+    color: var(--white);
+    font-weight: 500;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-size: 12px;
+    line-height: 14px;
+    border-radius: 4px;
+    background-color: var(--vkui--color_overlay_primary);
+    
+}
